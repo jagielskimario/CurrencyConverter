@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="CurrencyConverter" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="requestTextBox" HorizontalAlignment="Left" Margin="287,90,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="188"/>
+        <TextBox x:Name="requestTextBox" HorizontalAlignment="Left" Margin="287,90,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="188" KeyDown="requestTextBox_KeyDown"/>
         <TextBlock x:Name="responseTextBox" HorizontalAlignment="Left" Margin="196,204,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" Height="98"/>
         <Button x:Name="sendButton" Content="Send" HorizontalAlignment="Left" Margin="338,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.295,0.427" Height="32" Width="85" Click="SendButtonClick"/>
         <Label x:Name="label" Content="Put currency in format 000 000 000,00" HorizontalAlignment="Left" Margin="271,45,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.119,0.891" Width="220"/>

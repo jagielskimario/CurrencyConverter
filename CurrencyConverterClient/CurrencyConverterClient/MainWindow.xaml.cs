@@ -38,5 +38,13 @@ namespace CurrencyConverterClient
         {
             responseTextBox.Text = CallRestApi(requestTextBox.Text);
         }
+
+        private void requestTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                SendButtonClick(this, e);
+            }
+        }
     }
 }
