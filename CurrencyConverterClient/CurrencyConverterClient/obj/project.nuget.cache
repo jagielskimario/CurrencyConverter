@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NNrKQWjw5BTQ4MoPsTv2JtZMTqSa5fB5ow6V9tbv36UdE6gho1guGBuVEJvhGlfHGadjmJA6IvPOC6eiCJ5Jgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mario\\source\\repos\\CurrencyConverterClient\\CurrencyConverterClient\\CurrencyConverterClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mario\\.nuget\\packages\\restsharp\\106.13.0\\restsharp.106.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}
